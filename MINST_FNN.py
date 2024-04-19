@@ -3,12 +3,12 @@ import torch.nn as nn
 import torchvision.transforms as transforms
 import torchvision.datasets as dsets
 from NNCollection import FNN
-train_dataset = dsets.MNIST(root='./data',
+train_dataset = dsets.MNIST(root='C:/Users/Qi/PycharmProjects/data',
                             train=True,
-                            transform=transforms.ToTensor(),
+                            transpythonform=transforms.ToTensor(),
                             download=True)
 
-test_dataset = dsets.MNIST(root='./data',
+test_dataset = dsets.MNIST(root='C:/Users/Qi/PycharmProjects/data',
                            train=False,
                            transform=transforms.ToTensor())
 batch_size = 100

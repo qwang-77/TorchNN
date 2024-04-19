@@ -1,12 +1,13 @@
-import matplotlib.pyplot as plt
 import torch
-import torch.nn as nn
-import torch.optim as optim
 import numpy as np
-import math
+import torch.nn as nn
+import torchvision.transforms as transforms
+import torchvision.datasets as dsets
 from NNCollection import FNN
+import math
+import matplotlib.pyplot as plt
+import torch.optim as optim
 from sklearn.model_selection import train_test_split
-
 # Generate a sequence from 0 to 1 with a step of 0.01 using arange() function
 x = np.arange(0, 10.01, 0.001)  # End value (1.01) is exclusive, so we use 1.01 to include 1.0
 # print(x.shape)
@@ -72,8 +73,8 @@ x_test_reshaped = x_test[:, np.newaxis]
 things_to_plot = np.concatenate((x_test_reshaped,y_test_reshaped,y_pred), axis = 1)
 sorted_things = np.argsort(things_to_plot[:, 0])
 things_to_plot = things_to_plot[sorted_things]
-plt.figure(figsize=(12, 6))
 
+plt.figure(figsize=(12, 6))
 # Plot predicted y as a time series
 plt.plot(things_to_plot[:,0], things_to_plot[:,1], color='green', label='Test Y')
 plt.plot(things_to_plot[:,0], things_to_plot[:,2], color='red', label='Predicted Y')
