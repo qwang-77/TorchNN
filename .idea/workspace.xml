@@ -4,15 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9473212-60a8-4258-8aa5-a3e2f41f6f9e" name="Changes" comment="create project">
+    <list default="true" id="e9473212-60a8-4258-8aa5-a3e2f41f6f9e" name="Changes" comment="Create FNN simulation example">
+      <change afterPath="$PROJECT_DIR$/FNN_simulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MINST_FNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/MINST_FNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NNCollection.py" beforeDir="false" afterPath="$PROJECT_DIR$/NNCollection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713554081345</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create FNN simulation example">
+      <option name="closed" value="true" />
+      <created>1713555309829</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713555309829</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create project" />
-    <option name="LAST_COMMIT_MESSAGE" value="create project" />
+    <MESSAGE value="Create FNN simulation example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create FNN simulation example" />
   </component>
 </project>
