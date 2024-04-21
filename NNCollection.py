@@ -47,7 +47,7 @@ class CNN(nn.Module):
         self.conv1 = nn.Conv2d(num_rgb, num_filter, kernel_size=kernel_size, stride=stride_step, padding=padding_size)
         self.conv2 = nn.Conv2d(num_filter, num_filter, kernel_size=kernel_size, stride=stride_step, padding=padding_size)
         self.pool = nn.MaxPool2d(kernel_size=2, stride=2, padding=0)
-        self.fc1 = nn.Linear(48, 128)
+        self.fc1 = nn.Linear(48, 128) # Number of input freatures need to vary as the dimension varies
         self.fc2 = nn.Linear(128, 1)
         self.sigmoid = nn.Sigmoid()
 
