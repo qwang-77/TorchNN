@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9473212-60a8-4258-8aa5-a3e2f41f6f9e" name="Changes" comment="Create CNN simulation example">
-      <change afterPath="$PROJECT_DIR$/Pytorch_learning/Build NN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytorch_learning/CNN_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytorch_learning/Differenciation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytorch_learning/Optimization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytorch_learning/Transforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pytorch_learning/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e9473212-60a8-4258-8aa5-a3e2f41f6f9e" name="Changes" comment="Update Torch tutorial. Including a personalized example about CNN with GPU">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pytorch_learning/CNN_GPU_example.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pytorch_learning/CNN_GPU_example.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.Unnamed.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.main2.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/77/TorchNN/main.py",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/77/TorchNN/main.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="TorchNN" is-module-sdk="true">
@@ -181,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713572148664</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update Torch tutorial. Including a personalized example about CNN with GPU">
+      <option name="closed" value="true" />
+      <created>1713816935719</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713816935719</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +207,7 @@
     <MESSAGE value="create project" />
     <MESSAGE value="Create FNN simulation example" />
     <MESSAGE value="Create CNN simulation example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create CNN simulation example" />
+    <MESSAGE value="Update Torch tutorial. Including a personalized example about CNN with GPU" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Torch tutorial. Including a personalized example about CNN with GPU" />
   </component>
 </project>

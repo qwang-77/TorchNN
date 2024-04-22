@@ -51,13 +51,13 @@ class NeuralNetwork(nn.Module):
         self.conv_stack = nn.Sequential(
             nn.Conv2d(in_channels=1, out_channels=32, kernel_size=3, stride=1, padding=1),
             nn.ReLU(),
-            nn.MaxPool2d(kernel_size=2, stride=2),
             nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, stride=1, padding=1),
             nn.ReLU(),
-            nn.MaxPool2d(kernel_size=2, stride=2)
+            nn.Conv2d(in_channels=64, out_channels=32, kernel_size=3, stride=1, padding=1),
+            nn.ReLU(),
     )
         self.fc_stack = nn.Sequential(
-            nn.Linear(64 * 7 * 7, 512),
+            nn.Linear(25088, 512),
             # Adjust the input size based on the output size of the last convolutional layer
             nn.ReLU(),
             nn.Linear(512, 10)
@@ -77,7 +77,7 @@ model = NeuralNetwork().to(device)
 
 learning_rate = 1e-3
 batch_size = 64
-epochs = 5
+epochs = 100
 loss_fn = nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
 
